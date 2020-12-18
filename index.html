@@ -1,13 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SHAW BAR ENERGY</title>
+    <link rel="shortcut icon" href="recursos/logo.png">
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="estilos/estyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v9.0" nonce="XL13elSt"></script>
 </head>
 <body>
-    <div>
-        h1
+    <header class="hero">
+        <nav class="nav">
+            <a href="#somos" class="nav__items">¿Quienes somos?</a>
+            <a href="#productos" class="nav__items">Nuestros Productos</a>
+            <a href="#contacto" class="nav__items">Contáctanos</a>
+        </nav>
+
+        <div class="container">
+            <section class="hero__container">
+                <div class="hero__texts">
+                    <h1 class="hero__title">SHAW BAR ENERGY</h1>
+                    <h2 class="hero__subtitle">Pensando en tu bienestar.</h2>
+                </div>
+            </section>
+        </div>
+
+        <div class="hero__wave" style="overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;">
+                </path>
+            </svg>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <a id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=593939050120&amp;text=!Hola!&nbsp;?¿Me&nbsp;pueden&nbsp;apoyar?">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+          
+              <a id="app-messenger" target="_blanck" href="https://m.me/109039857694513">
+                <i class="fab fa-facebook-messenger"></i>
+              </a>
+        </div>
+
+        <section id="somos" class="presentation container">
+            <h2 class="subtitle">¿Quienes somos?</h2>
+            <img src="recursos/Somos.jpeg" class="presentation__picture">
+            <p class="presentation__copy">Somos un grupo de pequeños emprendedores los cuales presentamos ante ustedes nuestro producto, La barra energética a base de pepa de zambo y varios frutos secos que le brindaran toda la energía y los nutrientes necesarios para realizar todas tus actividades diarias y de deportes.</p>
+
+            <div class="v-container">
+                <iframe width="560" height="315"   src="https://www.youtube.com/embed/FlQguSwVVPg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+            </div>
+            <h4 style="color: cornflowerblue; margin-top: 20px; margin-bottom: 20px; font-size: 30px;">
+                Preparación
+            </h4>
+            <div class="v-container">
+                <iframe width="560" height="315"   src="https://www.youtube.com/embed/4ZWnZCEhyPg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+            </div>           
+        </section>
+        
+        <section id="productos" class="testimony container">
+            <h2 class="subtitle">Nuestros Productos</h2>
+            <div class="testimony__ grid">
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="recursos/box1.jpeg" alt="" class="testimony__img">
+                        <div class="testimony__texts">
+                            <h3 class="text_name" >
+                                Barra Mix
+                            </h3>
+
+                            <p class="testimony__verification">
+                                Caja que contiene tres tipos de barras diferentes. Los sabores son a su elección.
+                            </p>
+
+                            <h4 style="color:  rgb(3, 6, 48); margin-top: 5px;">
+                                Precio por caja: 
+                                <span style="color: rgb(10, 10, 10);">
+                                    $2,25.
+                                </span>
+                            </h4>
+                        </div>
+                        
+                    </div>
+                </article>
+
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="recursos/box2.jpeg" alt="" class="testimony__img">
+                        <div class="testimony__texts">
+                            <h3 class="text_name" >
+                                Barra con Arándanos 
+                            </h3>
+
+                            <p class="testimony__verification">
+                                Tres barras hechas a base de pepa de zambo y arándanos.
+                            </p>
+
+                            <h4 style="color: rgb(3, 6, 48); margin-top: 5px;">
+                                Precio por caja: 
+                                <span style="color: rgb(10, 10, 10);">
+                                    $2,25.
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="recursos/box3.jpeg" alt="" class="testimony__img">
+                        <div class="testimony__texts">
+                            <h3 class="text_name" >
+                                Barras con Gengibre
+                            </h3>
+
+                            <p class="testimony__verification">
+                                Barras hechas a base de pepa de zambo y gengibre deshidratado.
+                            </p>
+
+                            <h4 style="color:  rgb(3, 6, 48); margin-top: 5px;">
+                                Precio por caja: 
+                                <span style="color: rgb(10, 10, 10);">
+                                    $2,25.
+                                </span>
+                            </h4>
+                        </div>
+                    </div>
+                </article>
+   
+            </div>
+        </section>
+    </main>
+
+    <h2 class="subtitle">
+        Contáctanos
+    </h2>
+
+    <div style="background-color: rgb(186, 205, 240);">
+        <div id="contacto" style="text-align: center; margin-bottom: 50px;">
+            <div class="fb-page" data-href="https://www.facebook.com/SHAW-Bar-Energy-109039857694513" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SHAW-Bar-Energy-109039857694513" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SHAW-Bar-Energy-109039857694513">SHAW Bar Energy</a></blockquote></div>
+        </div>
     </div>
+
+    <footer>
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    xfbml: true,
+                    version: 'v9.0'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+        
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat" attribution=setup_tool
+            page_id="109039857694513"
+            greeting_dialog_display = "fade"
+            logged_in_greeting="Hola, ¿Cómo puedo ayudarte?" 
+            logged_out_greeting="Hola, ¿Cómo puedo ayudarte?">
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/f6ad43efa1.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
